@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun TestPreview() {
     SoReadTheme {
         RegistrationScreen()
     }

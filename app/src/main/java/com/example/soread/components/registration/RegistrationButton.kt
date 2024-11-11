@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 fun RegistrationButton(){
     Button(
         onClick = {
-            // Handle registration logic here
+            // TODO
         },
         modifier = Modifier.fillMaxWidth()
     ) {
