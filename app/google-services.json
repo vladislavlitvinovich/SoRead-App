@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95778168913",
+    "project_id": "soread-e40d2",
+    "storage_bucket": "soread-e40d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95778168913:android:db06c0e5c60f8b22d1d870",
+        "android_client_info": {
+          "package_name": "com.example.soread"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPdpwrqhM2iWTeLs2HyLijtYwPHH0x3IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
