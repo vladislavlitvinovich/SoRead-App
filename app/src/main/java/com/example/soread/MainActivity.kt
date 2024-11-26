@@ -9,7 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.soread.screens.RegistrationScreen
+import com.example.soread.screens.EnterScreen
 import com.example.soread.ui.theme.SoReadTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-
+                    EnterScreen("Registration")
                 }
             }
         }
@@ -33,6 +33,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TestPreview() {
     SoReadTheme {
-        RegistrationScreen()
+        EnterScreen("Test 1")
     }
 }

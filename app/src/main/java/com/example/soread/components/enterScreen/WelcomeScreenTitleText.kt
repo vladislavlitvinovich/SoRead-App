@@ -1,4 +1,4 @@
-package com.example.soread.components.registration
+package com.example.soread.components.enterScreen
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -8,9 +8,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun RegistrationTitleText(){
+fun RegistrationTitleText(text: String){
     Text(
-        text = "Registration",
+        text = text,
         fontSize = 24.sp,
         modifier = Modifier.padding(bottom = 16.dp)
     )
