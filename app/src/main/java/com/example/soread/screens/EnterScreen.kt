@@ -23,14 +23,14 @@ fun EnterScreen(title: String) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        RegistrationTitleText(title)
+        EnterTitleText(title)
         EmailTextField(email = email, onValueChange = { email = it })
         PasswordTextField(password = password, onValueChange = { password = it })
         if (title == "Registration") {
             ConfirmPasswordFiled(
                 confirmPassword = confirmPassword,
                 onValueChange = { confirmPassword = it })
-            RegistrationButton(email, password, confirmPassword, context)
+            RegistrationButton(email, password, confirmPassword)
         } else AuthenticationButton(email, password)
     }
 }

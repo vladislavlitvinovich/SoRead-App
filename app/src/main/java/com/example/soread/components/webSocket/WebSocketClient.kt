@@ -3,7 +3,7 @@ package com.example.soread.components.webSocket
 import okhttp3.*
 import java.util.concurrent.TimeUnit
 
-class WebSocketClient(private val url: String, private val listener: ChatWebSocketListener) {
+/*class WebSocketClient(private val url: String, private val listener: ChatWebSocketListener) {
 
     private val client = OkHttpClient.Builder()
         .readTimeout(10, TimeUnit.SECONDS)
@@ -23,4 +23,4 @@ class WebSocketClient(private val url: String, private val listener: ChatWebSock
     fun close() {
         webSocket?.close(1000, "Closing socket")
     }
-}
+}*/

@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun RegistrationTitleText(text: String){
+fun EnterTitleText(text: String){
     Text(
         text = text,
         fontSize = 24.sp,

@@ -4,6 +4,7 @@ import okhttp3.Response
 import okhttp3.WebSocket
 import okhttp3.WebSocketListener
 
+/*
 class ChatWebSocketListener(private val onMessageReceived: (String) -> Unit) : WebSocketListener() {
 
     override fun onOpen(webSocket: WebSocket, response: Response) {
@@ -21,4 +22,4 @@ class ChatWebSocketListener(private val onMessageReceived: (String) -> Unit) : W
     override fun onFailure(webSocket: WebSocket, t: Throwable, response: Response?) {
         println("WebSocket failure: ${t.message}")
     }
-}
+}*/

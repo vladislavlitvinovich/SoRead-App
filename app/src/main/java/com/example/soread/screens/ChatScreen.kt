@@ -16,7 +16,7 @@ import com.example.soread.ChatViewModel
 import com.example.soread.ui.theme.SoReadTheme
 
 
-class MainActivity : ComponentActivity() {
+/*class MainActivity : ComponentActivity() {
 
     private val chatViewModel: ChatViewModel by viewModels()
 
@@ -59,7 +59,7 @@ fun ChatScreen(chatViewModel: ChatViewModel) {
             }
         }
     }
-}
+}*/
 
 /*
 @Preview(showBackground = true)
