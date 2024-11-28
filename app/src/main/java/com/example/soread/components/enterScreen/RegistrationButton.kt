@@ -15,14 +15,13 @@ import com.google.firebase.ktx.Firebase
 
 @Composable
 fun RegistrationButton(email: String, password: String, confirmPassword: String) {
-    val context = LocalContext.current
-    val auth: FirebaseAuth = Firebase.auth
+    /*val auth: FirebaseAuth = Firebase.auth*/
 
-    Button(
+    /*Button(
         onClick = {
             if (password == confirmPassword) {
                 auth.createUserWithEmailAndPassword(email, password)
-                    .addOnCompleteListener { task ->
+                    .addOnCompleteListener { *//*task ->
                         if (task.isSuccessful) {
                             Toast.makeText(context, "Регистрация успешна", Toast.LENGTH_SHORT)
                                 .show()
@@ -32,7 +31,7 @@ fun RegistrationButton(email: String, password: String, confirmPassword: String)
                                 "Ошибка регистрации: ${task.exception?.message}",
                                 Toast.LENGTH_SHORT
                             ).show()
-                        }
+                        }*//*
                     }
             } else {
                 Toast.makeText(context, "Введённые пароли не совпадают", Toast.LENGTH_SHORT).show()
@@ -41,5 +40,5 @@ fun RegistrationButton(email: String, password: String, confirmPassword: String)
         modifier = Modifier.fillMaxWidth()
     ) {
         Text("Register")
-    }
+    }*/
 }

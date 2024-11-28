@@ -31,7 +31,9 @@ fun EnterScreen(title: String) {
                 confirmPassword = confirmPassword,
                 onValueChange = { confirmPassword = it })
             RegistrationButton(email, password, confirmPassword)
-        } else AuthenticationButton(email, password)
+        } else {
+            AuthenticationButton(email, password)
+        }
     }
 }
 
